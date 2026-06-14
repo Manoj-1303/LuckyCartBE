@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './config/db.js';
 import productRoutes from './routes/productRoutes.js'; 
+import orderRoutes from './routes/orderRoutes.js';
 
 dotenv.config();
 connectDB();
@@ -20,6 +21,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 app.use('/api/products', productRoutes);
+app.use('/api/orders', orderRoutes);
 app.get('/', (req, res) => {
   res.send('LuckyCart API is running...');
 });

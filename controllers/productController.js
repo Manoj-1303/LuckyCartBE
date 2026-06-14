@@ -8,7 +8,6 @@ export const getProducts = async (req, res) => {
     res.status(500).json({ message: 'Server Error fetching products' });
   }
 };
-
 export const getProductById = async (req, res) => {
   try {
     const product = await Product.findById(req.params.id);
