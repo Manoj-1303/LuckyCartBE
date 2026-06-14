@@ -5,7 +5,7 @@ const products = [
     name: "ProBook 16-inch", 
     price: 239900, 
     description: "2019 model with an Intel Core i7 processor and large clear display.", 
-    image: "/src/assets/macbookpro.jpg",
+    image: "/assets/macbookpro.jpg",
     featured: true,
     trending: true
   },
@@ -15,7 +15,7 @@ const products = [
     name: "Red Magic ROG", 
     price: 336999, 
     description: "High performance machine with fast screen for smooth gaming.", 
-    image: "/src/assets/redmagicrog.jpg",
+    image: "/assets/redmagicrog.jpg",
     featured: true,
     newArrival: true
   },
@@ -25,7 +25,7 @@ const products = [
     name: "Acer Nitro 5", 
     price: 89999, 
     description: "Great gaming laptop for daily play and heavy workloads.", 
-    image: "/src/assets/acernitro.jpg",
+    image: "/assets/acernitro.jpg",
     newArrival: true
   },
   { 
@@ -34,7 +34,7 @@ const products = [
     name: "Samsung Galaxy Book", 
     price: 69990, 
     description: "Very thin and light laptop, perfect for travel and office work.", 
-    image: "/src/assets/samsunglaptop.jpg",
+    image: "/assets/samsunglaptop.jpg",
     trending: true
   },
   
@@ -44,7 +44,7 @@ const products = [
     name: "Samsung Galaxy S26 Ultra", 
     price: 124999, 
     description: "Top tier phone with amazing cameras and a useful stylus pen.", 
-    image: "/src/assets/s26ultra.jpg",
+    image: "/assets/s26ultra.jpg",
     featured: true
   },
   { 
@@ -53,7 +53,7 @@ const products = [
     name: "Vivo X300 Smartphone", 
     price: 89999, 
     description: "Runs fast on OriginOS and features a beautiful double rear camera setup.", 
-    image: "/src/assets/vivox300.jpg",
+    image: "/assets/vivox300.jpg",
     trending: true
   },
   { 
@@ -62,7 +62,7 @@ const products = [
     name: "Nothing Phone 3a", 
     price: 26999, 
     description: "Unique clear back design with fun light up alerts.", 
-    image: "/src/assets/nothing3a.jpg",
+    image: "/assets/nothing3a.jpg",
     featured: true
   },
   { 
@@ -71,7 +71,7 @@ const products = [
     name: "Apple iPhone 18 Pro", 
     price: 139900, 
     description: "The newest phone from Apple with pro grade video recording.", 
-    image: "/src/assets/iphone18pro.jpg",
+    image: "/assets/iphone18pro.jpg",
     newArrival: true
   },
 
@@ -81,7 +81,7 @@ const products = [
     name: "Boat Airdopes", 
     price: 1499, 
     description: "True wireless earbuds with deep bass and long battery life.", 
-    image: "/src/assets/boatbuds.jpg",
+    image: "/assets/boatbuds.jpg",
     featured: true,
     trending: true
   },
@@ -91,7 +91,7 @@ const products = [
     name: "Boult Audio Mustang", 
     price: 1799, 
     description: "Sporty design earphones with clear and loud sound.", 
-    image: "/src/assets/boultmustang.jpg" 
+    image: "/assets/boultmustang.jpg" 
   },
   { 
     id: 11, 
@@ -99,7 +99,7 @@ const products = [
     name: "Apple AirPods Max", 
     price: 1599, 
     description: "Premium over ear headphones that block out all outside noise.", 
-    image: "/src/assets/appleheadphone.jpg",
+    image: "/assets/appleheadphone.jpg",
     trending: true
   },
   { 
@@ -108,7 +108,7 @@ const products = [
     name: "Nothing Earbuds", 
     price: 64999, 
     description: "Very light earbuds inside a cool clear charging case.", 
-    image: "/src/assets/nothingbuds.jpg",
+    image: "/assets/nothingbuds.jpg",
     newArrival: true
   },
 
@@ -118,7 +118,7 @@ const products = [
     name: "Portronics Power Bank", 
     price: 3499, 
     description: "Small 10000mAh battery block to keep your phone alive.", 
-    image: "/src/assets/portronicpb.jpg" 
+    image: "/assets/portronicpb.jpg" 
   },
   { 
     id: 14, 
@@ -126,7 +126,7 @@ const products = [
     name: "Acwo Fast Charge Bank", 
     price: 1799, 
     description: "Quick charging power bank for busy days on the go.", 
-    image: "/src/assets/acwopb.jpg" 
+    image: "/assets/acwopb.jpg" 
   },
   { 
     id: 15, 
@@ -134,7 +134,7 @@ const products = [
     name: "CaseGear Power Bank", 
     price: 25000, 
     description: "Tough and strong portable battery for outdoor trips.", 
-    image: "/src/assets/casegearpb.jpeg" 
+    image: "/assets/casegearpb.jpeg" 
   },
   { 
     id: 16, 
@@ -142,7 +142,7 @@ const products = [
     name: "Boat Energy Bank", 
     price: 999, 
     description: "High capacity 20000mAh battery for very long trips.", 
-    image: "/src/assets/boatpb.jpg",
+    image: "/assets/boatpb.jpg",
     featured: true
   },
 
@@ -152,7 +152,7 @@ const products = [
     name: "Casio G-Shock Smart", 
     price: 7990, 
     description: "Very tough watch that can handle any drop or deep water.", 
-    image: "/src/assets/gshockwatch.jpeg",
+    image: "/assets/gshockwatch.jpeg",
     newArrival: true
   },
   { 
@@ -161,7 +161,7 @@ const products = [
     name: "Fastrack Reflex", 
     price: 2099, 
     description: "Nice fitness band to track your daily steps and health..", 
-    image: "/src/assets/fasttrackwatch.jpeg",
+    image: "/assets/fasttrackwatch.jpeg",
     trending: true
   },
   { 
@@ -170,7 +170,7 @@ const products = [
     name: "Apple Watch Series", 
     price: 25900, 
     description: "The best watch to track your workouts and heart rate.", 
-    image: "/src/assets/iwatch.jpeg",
+    image: "/assets/iwatch.jpeg",
     featured: true
   },
   { 
@@ -179,7 +179,7 @@ const products = [
     name: "Boult Dive Smartwatch", 
     price: 1399, 
     description: "Great screen and long battery life for daily use.", 
-    image: "/src/assets/boultwatch.jpeg" 
+    image: "/assets/boultwatch.jpeg" 
   },
   { 
     id: 21, 
@@ -187,7 +187,7 @@ const products = [
     name: "Sony Extra Bass Speaker", 
     price: 27990, 
     description: "Small speaker but makes very loud and deep punchy sound.", 
-    image: "/src/assets/sonyspeaker.jpeg",
+    image: "/assets/sonyspeaker.jpeg",
     newArrival: true
   },
   { 
@@ -196,7 +196,7 @@ const products = [
     name: "Marshall Acton", 
     price: 51999, 
     description: "Classic rock design with very rich and clear audio quality.", 
-    image: "/src/assets/marshallspeaker.jpeg",
+    image: "/assets/marshallspeaker.jpeg",
     trending: true
   },
   { 
@@ -205,7 +205,7 @@ const products = [
     name: "JBL Flip 6", 
     price: 9999, 
     description: "Waterproof speaker that is easy to carry anywhere you go.", 
-    image: "/src/assets/jblspeaker.jpeg",
+    image: "/assets/jblspeaker.jpeg",
     featured: true
   },
   { 
@@ -214,7 +214,7 @@ const products = [
     name: "Zebronics Party Speaker", 
     price: 1990, 
     description: "Big sound and bright lights for your next house party.", 
-    image: "/src/assets/zebronicspeaker.jpeg" 
+    image: "/assets/zebronicspeaker.jpeg" 
   }
 ];
 

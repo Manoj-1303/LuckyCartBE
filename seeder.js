@@ -5,7 +5,7 @@ import Product from './models/productModel.js';
 import products from './data/products.js';
 
 dotenv.config();
-connectDB();
+await connectDB();
 
 const importData = async () => {
   try {
